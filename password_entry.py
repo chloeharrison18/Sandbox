@@ -8,4 +8,4 @@ while len(password) < MIN_LENGTH:
     print("Needs 5 characters")
     password = input("Enter password: ")
 
-print("Valid password")
+print("*" * len(password))
